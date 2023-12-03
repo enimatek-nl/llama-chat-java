@@ -36,6 +36,9 @@
                 <version>3.1.1</version>
                 <configuration>
                     <mainClass>nl.enimatek.llama.chat.Main</mainClass>
+                    <arguments>
+                        <argument>-Dde.kherud.llama.lib.name=/home/tim/projects/llama.cpp/build/libllama.so</argument>
+                    </arguments>
                 </configuration>
             </plugin>
             <plugin>
