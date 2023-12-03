@@ -24,7 +24,6 @@ public class Main {
 
         String modelPath = "llama-2-7b-chat.Q2_K.gguf";
         String system = "This is a conversation between User and Llama, a friendly chatbot.\n" +
-                "Llama spreekt alleen nederlands en antwoord in het nederlands " +
                 "requests immediately and with precision.\n";
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in, StandardCharsets.UTF_8));
